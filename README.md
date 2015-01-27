@@ -3,13 +3,13 @@ Tremo es una extensión de Chrome que permite grabar una secuencia de acciones e
 
 # Instalación
 Desde Github:   
-	*git clone git: //github.com/Tremoteam/Tremo.git*  
+    **git clone git: //github.com/Tremoteam/Tremo.git**  
 Esto genera una carpeta ./Tremo  
 Luego en Chrome:   
-	Ir a herramientas / Extensiones   
-	Seleccionar modo de programador   
-	Seleccione Cargar extensión sin empaquetar   
-	Seleccione la carpeta ./Tremo   
+* Ir a herramientas / Extensiones   
+* Seleccionar modo de programador   
+* Seleccione Cargar extensión sin empaquetar   
+* Seleccione la carpeta ./Tremo   
 	
 # Uso
 * Hacer click en el icono de la extensión Tremo, ubicado en el extremo derecho superior del navegador una vez estando en el sitio que desea grabar las acciones.   
