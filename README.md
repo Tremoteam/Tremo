@@ -1,5 +1,8 @@
 # Tremo
-Tremo es una extensión de Chrome que permite grabar una secuencia de acciones en el navegador y luego poder descargar dicho script en formato JS para su posterior uso.
+Tremo es una extensión de Chrome que permite grabar una secuencia de acciones en el navegador y generar un script para CasperJS. Dicho script tiene una vista preliminar 
+pudiéndose descargar automáticamente como un Archivo.js para su posterior uso.
+Esta extensión esta basada en [ebrehault/resurrectio](http://github.com/ebrehault/resurrectio "texto alt").
+
 
 # Instalación
 Desde Github:   
