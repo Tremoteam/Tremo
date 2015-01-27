@@ -1,0 +1,57 @@
+body{
+  min-width:650px;
+  
+}
+
+a{
+  color:#f90;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+  border: 2px #000;
+}
+
+
+#bgo{
+ background:silver;
+ color:black;
+ width:75px;
+ border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	cursor: pointer;
+margin-left:40%;	
+}
+
+#bstop{
+ background:silver;
+ background:silver;
+ color:black;
+ width:75px;
+ border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	cursor: pointer;
+}
+
+#bexportxy{
+ background:silver;
+ background:silver;
+ color:black;
+ width:75px;
+ border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	cursor: pointer;
+}
+p{
+  font:0.9em sans-serif;
+}
+h1{
+  font:1em sans-serif;
+  color:#fff;
+  background:green;
+  padding:7px
+
+}
