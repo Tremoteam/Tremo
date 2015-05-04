@@ -1,0 +1,34 @@
+{
+	"name":"Tremo grabador",
+	"version": "0.2",
+	"description":"Estructura Base para tremo recorder",
+	"manifest_version" :  2 ,
+	"icons":{
+		"16":"icon16.png",
+		"48":"icon48.png",
+		"128":"icon128.png"
+	},
+	"browser_action":{
+		"default_title":"Tremo grabador",
+		"default_icon":"icon.png",
+		"default_popup": "control.html"
+	},
+	
+	"background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+     "tabs",
+     "background",
+     "http://*/*"
+  ],
+  "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["recorder.js"]
+  }],
+  "offline_enabled": true,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
+
+
+

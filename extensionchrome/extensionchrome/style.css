@@ -49,9 +49,9 @@ p{
   font:0.9em sans-serif;
 }
 h1{
-  font:1em sans-serif;
-  color:#fff;
-  background:green;
+  font-size: 14px;
+  color:black;
+  background:#c9cbcd;
   padding:7px
 
 }
